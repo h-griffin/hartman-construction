@@ -25,8 +25,28 @@
     /* padding-top: 10px; */
 }
 
-.title ul{
+.title {
+    /* border: solid 1px black; */
     float:right;
+    display: inline-block;
+}
+
+#fencing{
+    float: left;
+    display: inline-block;
+}
+
+#fence{
+    display: inline-block;
+    float: left;
+}
+
+.tbutt{
+    float:left;
+}
+
+#search-bar{
+    padding-right: 3.3%;
 }
 
 html, body, div, span, applet, object,
@@ -2326,7 +2346,8 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
-			top: 0.25em;
+            top: 0.25em;
+            
 		}
 
 		.image.right {
@@ -2436,7 +2457,8 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
         padding-left: 0;
-        float:right;
+        padding-top: 10px;
+        float: right;
         display: inline-block;
 	}
 
@@ -2784,7 +2806,7 @@ input, select, textarea {
 				-ms-flex-grow: 1;
 				flex-grow: 1;
 				-ms-flex: 1;
-				padding: 3.75em 3em 3.3em 3em;
+				padding: 3.75em 3em 1.8em 3em;
 			}
 
 				.post > header .title h2 {
